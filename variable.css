@@ -1,0 +1,122 @@
+:root {
+    /* ========================================
+       SAVORÉ BRAND COLORS
+    ======================================== */
+
+    --color-ink: #101820;
+    --color-charcoal: #1A2428;
+
+    --color-ivory: #F7F1E7;
+    --color-sand: #D8C7AD;
+
+    --color-sienna: #B85C3A;
+    --color-copper: #C9825B;
+    --color-gold: #C9A66B;
+
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+
+    /* ========================================
+       SEMANTIC COLORS
+    ======================================== */
+
+    --color-background: var(--color-ink);
+    --color-surface: var(--color-charcoal);
+
+    --color-text: var(--color-ivory);
+    --color-text-muted: var(--color-sand);
+
+    --color-accent: var(--color-sienna);
+    --color-accent-light: var(--color-copper);
+
+    --color-border: rgba(247, 241, 231, 0.14);
+
+
+    /* ========================================
+       TYPOGRAPHY
+    ======================================== */
+
+    --font-display:
+        "Playfair Display",
+        Georgia,
+        serif;
+
+    --font-body:
+        "DM Sans",
+        Arial,
+        sans-serif;
+
+
+    /* ========================================
+       FONT WEIGHTS
+    ======================================== */
+
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+
+
+    /* ========================================
+       TYPE SCALE
+    ======================================== */
+
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.35rem;
+
+    --text-display-sm: clamp(2.5rem, 6vw, 4rem);
+    --text-display-md: clamp(3rem, 7vw, 5.5rem);
+    --text-display-lg: clamp(3.5rem, 9vw, 8rem);
+
+
+    /* ========================================
+       LAYOUT
+    ======================================== */
+
+    --container-width: 1240px;
+
+    --section-space: clamp(5rem, 10vw, 9rem);
+
+    --page-padding:
+        clamp(1.25rem, 4vw, 4rem);
+
+
+    /* ========================================
+       BORDER RADIUS
+    ======================================== */
+
+    --radius-sm: 4px;
+    --radius-md: 10px;
+    --radius-lg: 18px;
+
+    --radius-pill: 999px;
+
+
+    /* ========================================
+       SHADOWS
+    ======================================== */
+
+    --shadow-soft:
+        0 20px 60px rgba(0, 0, 0, 0.18);
+
+    --shadow-deep:
+        0 30px 90px rgba(0, 0, 0, 0.32);
+
+
+    /* ========================================
+       TRANSITIONS
+    ======================================== */
+
+    --transition-fast:
+        180ms ease;
+
+    --transition-base:
+        350ms cubic-bezier(0.2, 0.65, 0.25, 1);
+
+    --transition-slow:
+        700ms cubic-bezier(0.2, 0.65, 0.25, 1);
+}
